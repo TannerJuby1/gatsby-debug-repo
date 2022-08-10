@@ -3,5 +3,9 @@ module.exports = {
     title: `minimal`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: [
+    {
+      resolve: "gatsby-plugin-offline",
+    },
+  ],
+};
