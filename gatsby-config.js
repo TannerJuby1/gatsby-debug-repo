@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
     title: `minimal`,
-    siteUrl: `https://www.yourdomain.tld`,
+    siteUrl: `https://www.yourdomain.tld`
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-offline",
-    },
-  ],
-};
+      resolve: 'gatsby-plugin-offline',
+      precachePages: [`/*`]
+    }
+  ]
+}
