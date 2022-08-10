@@ -1,6 +1,6 @@
 import React from 'react'
 
-const FundraiserTemplate = ({ data, pageContext }) => {
+const FundraiserTemplate = ({ pageContext }) => {
   const { title } = pageContext
 
   return (

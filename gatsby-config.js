@@ -6,7 +6,7 @@ module.exports = {
   plugins: [
     {
       resolve: 'gatsby-plugin-offline',
-      precachePages: [`/*`]
+      precachePages: [`/*`, `/fundraisers/*`]
     }
   ]
 }
